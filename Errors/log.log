@@ -1,0 +1,5 @@
+21:32:54,982 ERROR HandleExeptionInterceptor:18 - Exception throws when intercepting the method
+java.lang.RuntimeException: Exception throws when intercepting the method
+	at org.example.guice.service.DailyReportManager.interceptmethod(DailyReportManager.java:44)
+	at org.example.guice.module.HandleExeptionInterceptor.invoke(HandleExeptionInterceptor.java:16)
+	at org.example.guice.App.main(App.java:21)
